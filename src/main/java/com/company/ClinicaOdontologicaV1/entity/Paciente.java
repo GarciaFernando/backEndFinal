@@ -16,7 +16,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "pacientes")
-//@JsonIgnoreProperties({"hibernateLazyInitializer"})
+@JsonIgnoreProperties({"hibernateLazyInitializer"})
 public class Paciente {
 
     @Id
@@ -28,15 +28,15 @@ public class Paciente {
     private String dni;
     private String email;
 
-    @OneToOne(cascade = CascadeType.PERSIST,fetch=FetchType.LAZY)
+    @OneToOne
     @JoinColumn(name="domicilio_id")
     private Domicilio domicilio;
 
-    @OneToOne(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
+    @OneToOne
     @JoinColumn(name = "turno_id")
     private Turno turno;
 
-    @JsonFormat (shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd")
+    //@JsonFormat (shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd")
     private LocalDate fechaIngreso;
 
     public Paciente(String apellido, String nombre, String dni, String email, Domicilio domicilio, Turno turno, LocalDate fechaIngreso) {
