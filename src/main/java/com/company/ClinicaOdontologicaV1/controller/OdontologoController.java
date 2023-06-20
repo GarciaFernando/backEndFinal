@@ -41,6 +41,13 @@ public class OdontologoController {
         response =ResponseEntity.status(HttpStatus.OK).body("Odontologo "+id+" eliminado.");
         return response;
     }
+
+    @PutMapping("/edit")
+    public ResponseEntity<?>actualizarOdontologo(@RequestBody Odontologo odontologo){
+        odontologoService.modificar(odontologo);
+        return ResponseEntity.ok().body("Se modifico el odontologo.");
+    }
+
     @PostMapping("/agregarLista")
     public ResponseEntity<?> agregarLista(@RequestBody List<Odontologo> listOdontologos){
         for(Odontologo o : listOdontologos){

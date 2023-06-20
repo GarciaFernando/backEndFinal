@@ -12,6 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class OdontologoDTO {
+    private Long id;
     private String nombre;
     private String apellido;
     private String matricula;

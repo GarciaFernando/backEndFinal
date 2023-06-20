@@ -6,12 +6,11 @@ import com.company.ClinicaOdontologicaV1.entity.Paciente;
 import com.company.ClinicaOdontologicaV1.service.IDomicilioService;
 import com.company.ClinicaOdontologicaV1.service.IPacienteService;
 import org.junit.jupiter.api.*;
-import org.junit.jupiter.api.function.Executable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
-import java.util.List;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -56,6 +55,12 @@ class PacienteServiceTest {
 
     @Test
     @Order(3)
+    public void testModificar()throws Exception{
+        //pendiente
+    }
+
+    @Test
+    @Order(4)
     public void testEliminarPaciente() throws Exception {
         pacienteService.eliminar(1L);
         assertThrows(Exception.class,()->pacienteService.buscarPorId(1L));

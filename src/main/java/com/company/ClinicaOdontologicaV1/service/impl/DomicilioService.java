@@ -18,8 +18,10 @@ public class DomicilioService implements IDomicilioService {
     }
 
     @Override
-    public void guardar(Domicilio domicilio) {
+    public Long guardar(Domicilio domicilio) {
         domicilioRepository.save(domicilio);
+
+        return domicilio.getId();
     }
 
     @Override
