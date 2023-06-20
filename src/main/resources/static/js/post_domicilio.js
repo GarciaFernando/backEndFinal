@@ -1,13 +1,10 @@
 window.addEventListener('load', function () {
+    console.log("EJECUTANDO LOAD FUNCTION")
 
-     //Al cargar la pagina buscamos y obtenemos el formulario donde estarán
-     //los datos que el usuario cargará del nuevo odontologo
     const formulario = document.querySelector('#agregar_nuevo_paciente');
-
-    //Ante un submit del formulario se ejecutará la siguiente funcion
     formulario.addEventListener('submit', function (event) {
+    event.preventDefault();
 
-        //creamos un JSON que tendrá los datos del nuevo estudiante
         const formData = {
             calle: document.querySelector('#calle').value,
             numero: document.querySelector('#numero').value,
@@ -15,9 +12,8 @@ window.addEventListener('load', function () {
             provincia: document.querySelector('#provincia').value,
         };
 
-        //invocamos utilizando la función fetch la API estudiantes con el método POST
-        //que guardará al odontologo que enviaremos en formato JSON
         const url = '/domicilio/agregar';
+
         const settings = {
             method: 'POST',
             headers: {
@@ -26,33 +22,40 @@ window.addEventListener('load', function () {
             body: JSON.stringify(formData)
         }
 
+
         fetch(url, settings)
             .then(response => response.json())
             .then(data => {
-                guardarPaciente(data)
-               //Si no hay ningun error se muestra un mensaje diciendo que el odontologo
-               //se agrego bien
-                 let successAlert = '<div class="alert alert-success alert-dismissible">' +
-                     '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                     '<strong></strong> Domicilio agregado </div>'
+            console.log("DATA DEL DOMICILIO")
+            console.log(data)
 
-                 document.querySelector('#response').innerHTML = successAlert;
-                 document.querySelector('#response').style.display = "block";
-                 //se dejan todos los campos vacíos por si se quiere ingresar otro odontologo
+            const formDataPaciente = {
+                nombre: document.querySelector('#nombre').value,
+                apellido: document.querySelector('#apellido').value,
+                dni: document.querySelector('#dni').value,
+                email: document.querySelector('#email').value,
+                domicilio:{
+                     id:data
+                }
+            };
+            console.log("LLAMO A LA FUNCION GUARDAR PACIENTE CON EL FORMDATAPACIENTE")
+            guardarPaciente(formDataPaciente)
+
             })
             .catch(error => {
                  //Si hay algun error se muestra un mensaje diciendo que el estudiante
                  //no se pudo guardar y se intente nuevamente
                   let errorAlert = '<div class="alert alert-danger alert-dismissible">' +
                                      '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                                     '<strong> Error intente nuevamente</strong> </div>'
+                                     '<strong> Error intente nuevamente(postDomicilio)</strong> </div>'
 
                    document.querySelector('#response').innerHTML = errorAlert;
                    document.querySelector('#response').style.display = "block";
                    //se dejan todos los campos vacíos por si se quiere ingresar otro estudiante
-                   //resetUploadForm();})
+                   //resetUploadForm();
+                   })
     });
-
+/*
     function resetUploadForm(){
         document.querySelector('#calle').value = "";
         document.querySelector('#numero').value = "";
@@ -67,5 +70,5 @@ window.addEventListener('load', function () {
         } else if (pathname == "/studentsList.html") {
             document.querySelector(".nav .nav-item a:last").addClass("active");
         }
-    })();
+    })();*/
 });

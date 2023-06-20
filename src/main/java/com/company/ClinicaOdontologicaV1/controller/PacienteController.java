@@ -43,6 +43,11 @@ public class PacienteController {
         return response;
     }
 
+    @PutMapping("/edit")
+    public ResponseEntity<?>actualizarPaciente(@RequestBody Paciente paciente){
+        pacienteService.modificar(paciente);
+        return ResponseEntity.ok().body("Se modifico el paciente.");
+    }
     @PostMapping("/agregarLista")
     public ResponseEntity<?> agregarLista(@RequestBody List<Paciente> listPaciente){
         for(Paciente p : listPaciente){

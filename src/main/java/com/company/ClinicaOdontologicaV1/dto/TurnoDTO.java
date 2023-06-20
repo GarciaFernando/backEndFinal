@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 @JsonIgnoreProperties(ignoreUnknown = true)
 
 public class TurnoDTO {
+    private Long id;
     private Paciente paciente;
     private Odontologo odontologo;
     private LocalDateTime fecha;

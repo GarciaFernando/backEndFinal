@@ -22,8 +22,8 @@ public class DomicilioController {
 
     @PostMapping("/agregar")
     public ResponseEntity<?> agregarDomicilio(@RequestBody Domicilio domicilio){
-        Long id = domicilioService.guardar(domicilio);
-        return ResponseEntity.status(HttpStatus.OK).body(id);
+        domicilioService.guardar(domicilio);
+        return ResponseEntity.status(HttpStatus.OK).body(domicilio.getId());
     }
     @GetMapping("/listar")
     public ResponseEntity<List<Domicilio>> obtenerDomicilio(){

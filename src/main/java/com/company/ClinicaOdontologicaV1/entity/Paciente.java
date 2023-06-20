@@ -16,7 +16,8 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "pacientes")
-@JsonIgnoreProperties({"hibernateLazyInitializer"})
+//@JsonIgnoreProperties({"hibernateLazyInitializer"})
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Paciente {
 
     @Id

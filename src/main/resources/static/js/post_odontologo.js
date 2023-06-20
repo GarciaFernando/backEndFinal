@@ -51,7 +51,8 @@ window.addEventListener('load', function () {
                    document.querySelector('#response').innerHTML = errorAlert;
                    document.querySelector('#response').style.display = "block";
                    //se dejan todos los campos vacíos por si se quiere ingresar otro estudiante
-                   resetUploadForm();})
+                   resetUploadForm();
+                   })
     });
 
     function resetUploadForm(){
