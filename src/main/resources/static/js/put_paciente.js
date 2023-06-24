@@ -1,30 +1,39 @@
 window.addEventListener('load', function () {
 
-    //Buscamos y obtenemos el formulario donde estan
-    //los datos que el usuario pudo haber modificado del estudiante
     const formulario = document.querySelector('#update_paciente_form');
     formulario.addEventListener('submit', function (event) {
     event.preventDefault();
         let pacienteId = document.querySelector('#paciente_id').value;
 
-        //creamos un JSON que tendrá los datos del estudiante
-        //a diferencia de un estudiante nuevo en este caso enviamos el id
-        //para poder identificarlo y modificarlo para no cargarlo como nuevo
+
         const formData = {
             id: document.querySelector('#paciente_id').value,
             nombre: document.querySelector('#nombre').value,
             apellido: document.querySelector('#apellido').value,
             dni: document.querySelector('#dni').value,
-            calle: document.querySelector('#calle').value,
-            email:"asd"
+            email: document.querySelector('#email').value,
+            fechaIngreso: document.querySelector('#fechaIngreso').value,
             domicilio:{
-                id:1,
+                id:document.querySelector('#idDomicilio').value,
+            }
+        };
+
+        const formDataDomicilio = {
+                id:document.querySelector('#idDomicilio').value,
                 calle:document.querySelector('#calle').value,
                 numero:document.querySelector('#numero').value,
                 localidad:document.querySelector('#localidad').value,
                 provincia:document.querySelector('#provincia').value
-            }
-        };
+        }
+        const urlDomicilio = '/domicilio/edit';
+        const settingsDomicilio = {
+            method: 'PUT',
+            headers:{
+                'Content-Type':'application/json',
+            },
+            body: JSON.stringify(formDataDomicilio)
+        }
+        fetch(urlDomicilio,settingsDomicilio)
 
         //invocamos utilizando la función fetch la API estudiantes con el método PUT
         //que modificará al estudiante que enviaremos en formato JSON
@@ -36,8 +45,7 @@ window.addEventListener('load', function () {
             },
             body: JSON.stringify(formData)
         }
-          fetch(url,settings)
-          .then(response => response.json())
+          fetch(url,settings).then(location.reload())
     })
  })
 
@@ -52,15 +60,18 @@ window.addEventListener('load', function () {
           fetch(url,settings)
           .then(response => response.json())
           .then(data => {
-              let student = data;
+              let paciente = data;
               document.querySelector('#paciente_id').value = paciente.id;
               document.querySelector('#nombre').value = paciente.nombre;
               document.querySelector('#apellido').value = paciente.apellido;
               document.querySelector('#dni').value = paciente.dni;
+              document.querySelector('#email').value = paciente.email;
+              document.querySelector('#idDomicilio').value=paciente.domicilio.id
               document.querySelector('#calle').value = paciente.domicilio.calle;
               document.querySelector('#numero').value = paciente.domicilio.numero;
               document.querySelector('#localidad').value = paciente.domicilio.localidad;
               document.querySelector('#provincia').value = paciente.domicilio.provincia;
+              document.querySelector('#fechaIngreso').value = paciente.fechaIngreso;
 
             //el formulario por default esta oculto y al editar se habilita
               document.querySelector('#div_student_updating').style.display = "block";

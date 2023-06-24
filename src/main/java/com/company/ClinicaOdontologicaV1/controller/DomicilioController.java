@@ -2,6 +2,7 @@ package com.company.ClinicaOdontologicaV1.controller;
 
 
 import com.company.ClinicaOdontologicaV1.entity.Domicilio;
+import com.company.ClinicaOdontologicaV1.entity.Odontologo;
 import com.company.ClinicaOdontologicaV1.service.impl.DomicilioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -42,6 +43,13 @@ public class DomicilioController {
         response =ResponseEntity.status(HttpStatus.OK).body("Domicilio "+id+" eliminado.");
         return response;
     }
+
+    @PutMapping("/edit")
+    public ResponseEntity<?>actualizarOdontologo(@RequestBody Domicilio domicilio){
+        domicilioService.modificar(domicilio);
+        return ResponseEntity.ok().body("Se modifico el domicilio.");
+    }
+
     @PostMapping("/agregarLista")
     public ResponseEntity<?> agregarLista(@RequestBody List<Domicilio> listDomicilio){
         for(Domicilio d: listDomicilio){

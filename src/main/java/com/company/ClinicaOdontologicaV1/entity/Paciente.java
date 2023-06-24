@@ -29,7 +29,7 @@ public class Paciente {
     private String dni;
     private String email;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.REMOVE)
     @JoinColumn(name="domicilio_id")
     private Domicilio domicilio;
 

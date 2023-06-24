@@ -1,14 +1,10 @@
 window.addEventListener('load', function () {
 
-    //Buscamos y obtenemos el formulario donde estan
-    //los datos que el usuario pudo haber modificado del estudiante
     const formulario = document.querySelector('#update_odontologo_form');
     formulario.addEventListener('submit', function (event) {
         let odontologoId = document.querySelector('#odontologo_id').value;
 
-        //creamos un JSON que tendrá los datos del estudiante
-        //a diferencia de un estudiante nuevo en este caso enviamos el id
-        //para poder identificarlo y modificarlo para no cargarlo como nuevo
+
         const formData = {
             id: document.querySelector('#odontologo_id').value,
             nombre: document.querySelector('#nombre').value,

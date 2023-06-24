@@ -51,13 +51,38 @@ class PacienteServiceTest {
         PacienteDTO pacienteDTO=pacienteService.buscarPorId(1L);
         assertEquals("Garcia",pacienteDTO.getApellido());
         assertEquals("Fernando",pacienteDTO.getNombre());
-    }
 
+    }
+/*
     @Test
     @Order(3)
     public void testModificar()throws Exception{
-        //pendiente
+        Paciente paciente = new Paciente();
+        paciente.setId(1L);
+        paciente.setNombre("Jorge");
+        paciente.setApellido("Rodriguez");
+        pacienteService.modificar(paciente);
+
+        PacienteDTO pacienteDTO=pacienteService.buscarPorId(1L);
+        assertEquals("Rodriguez",pacienteDTO.getApellido());
+        assertEquals("40315587",pacienteDTO.getDni());
+
+    }*/
+
+    @Test
+    @Order(3)
+    public void testFechaIngreso() throws Exception {
+        Paciente paciente = new Paciente();
+        paciente.setApellido("Martinez");
+        paciente.setNombre("Alberto");
+        paciente.setFechaIngreso(LocalDate.now());
+        pacienteService.guardar(paciente);
+        PacienteDTO pDto = pacienteService.buscarPorId(2L);
+        assertNotNull(pDto.getFechaIngreso());
+
     }
+
+
 
     @Test
     @Order(4)
