@@ -10,13 +10,8 @@ window.addEventListener('load', function () {
     fetch(url,settings)
     .then(response => response.json())
     .then(data => {
-        console.log("ANTES DEL FOR")
          //recorremos la colección de estudiantes del JSON
          for(paciente of data){
-          //por cada estudiante armaremos una fila de la tabla
-          //cada fila tendrá un id que luego nos permitirá borrar la fila si eliminamos
-          //el estudiante
-            console.log("DESPUES DEL FOR")
           var table = document.getElementById("studentTable");
           var studentRow =table.insertRow();
           let tr_id = 'tr_' + paciente.id;

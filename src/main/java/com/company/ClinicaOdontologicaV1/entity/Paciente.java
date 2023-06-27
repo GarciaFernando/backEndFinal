@@ -33,20 +33,20 @@ public class Paciente {
     @JoinColumn(name="domicilio_id")
     private Domicilio domicilio;
 
-    @OneToOne
-    @JoinColumn(name = "turno_id")
-    private Turno turno;
+    //@OneToOne
+    //@JoinColumn(name = "turno_id")
+    //private Turno turno;
 
     //@JsonFormat (shape = JsonFormat.Shape.STRING,pattern = "yyyy-MM-dd")
     private LocalDate fechaIngreso;
 
-    public Paciente(String apellido, String nombre, String dni, String email, Domicilio domicilio, Turno turno, LocalDate fechaIngreso) {
+    public Paciente(String apellido, String nombre, String dni, String email, Domicilio domicilio, /*Turno turno,*/ LocalDate fechaIngreso) {
         this.apellido = apellido;
         this.nombre = nombre;
         this.dni = dni;
         this.email = email;
         this.domicilio = domicilio;
-        this.turno = turno;
+        //this.turno = turno;
         this.fechaIngreso = fechaIngreso;
     }
 
@@ -59,7 +59,7 @@ public class Paciente {
                 ", dni='" + dni + '\'' +
                 ", email='" + email + '\'' +
                 ", domicilio=" + domicilio +
-                ", turno=" + turno +
+                //", turno=" + turno +
                 ", fechaIngreso=" + fechaIngreso +
                 '}';
     }

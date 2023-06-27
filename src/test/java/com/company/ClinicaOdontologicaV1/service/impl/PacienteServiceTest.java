@@ -22,12 +22,7 @@ class PacienteServiceTest {
     IPacienteService pacienteService;
     @Autowired
     IDomicilioService domicilioService;
-/*
-    @BeforeAll
-    public void cargaDatos(){
 
-    }
-*/
     @Test
     @Order(1)
     public void testAgregarPaciente() throws Exception {
@@ -37,12 +32,15 @@ class PacienteServiceTest {
         p.setEmail("example@gmail.com");
         p.setNombre("Fernando");
         p.setFechaIngreso(LocalDate.now());
-        Domicilio d = new Domicilio(1L,"123","Falsa","Rosario","Santa Fe");
+        Domicilio d = new Domicilio("123","Falsa","Rosario","Santa Fe");
         domicilioService.guardar(d);
-        p.setDomicilio(d);
+        Domicilio dTest = new Domicilio();
+        dTest.setId(1L);
+        p.setDomicilio(dTest);
 
         pacienteService.guardar(p);
         PacienteDTO pDTO = pacienteService.buscarPorId(1L);
+        assertEquals("Falsa",pDTO.getDomicilio().getCalle());
         assertNotNull(pDTO);
     }
     @Test
