@@ -8,6 +8,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.util.List;
 
 @Entity
@@ -22,11 +25,20 @@ public class Odontologo {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
+    @Size(max=30, message= "Nombre maximo 30 caracteres.")
+    @NotNull(message = "El nombre no debe ser nulo.")
+    @NotBlank(message = "El nombre no debe estar en blanco.")
     private String nombre;
+    @Size(max=30, message= "Apellido maximo 30 caracteres.")
+    @NotNull(message = "El apellido no debe ser nulo.")
+    @NotBlank(message = "El apellido no debe estar en blanco.")
     private String apellido;
+    @Size(max=15, message= "Matricula maximo 15 caracteres.")
+    @NotNull(message = "La matricula no debe ser nulo.")
+    @NotBlank(message = "La matricula no debe estar en blanco.")
     private String matricula;
 
-    @OneToMany(mappedBy = "odontologo",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "odontologo",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     @JsonIgnore
     private List<Turno> turnos;
 
@@ -37,14 +49,4 @@ public class Odontologo {
         this.turnos = turnos;
     }
 
-    @Override
-    public String toString() {
-        return "Odontologo{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", matricula='" + matricula + '\'' +
-                ", turnos=" + turnos +
-                '}';
-    }
 }

@@ -35,7 +35,7 @@ class OdontologoServiceTest {
         ObjectMapper mapper = new ObjectMapper();
         odontologoDTO.setNombre("Jorge");
 
-        odontologoService.guardar(mapper.convertValue(odontologoDTO,Odontologo.class));
+        odontologoService.modificar(mapper.convertValue(odontologoDTO,Odontologo.class));
         OdontologoDTO odontologoDTO01 = odontologoService.buscarPorId(1L);
         assertEquals("Jorge",odontologoDTO01.getNombre());
 

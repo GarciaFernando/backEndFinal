@@ -1,93 +1,72 @@
-[2023-06-05 23:15:34] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:15:34] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:15:34] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:19:51] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:19:51] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:19:51] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:27:24] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:27:24] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:27:24] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:27:24] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:32:42] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:32:42] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:32:42] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:32:42] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:32:49] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:39:17] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:39:17] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:39:17] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:39:17] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:39:26] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:40:15] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:40:15] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:40:15] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:40:15] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:40:18] [ INFO ] [OdontologoDaoH2:100] Se encontro correctamente el odontologo con id 1
-[2023-06-05 23:42:10] [ INFO ] [OdontologoDaoH2:100] Se encontro correctamente el odontologo con id 1
-[2023-06-05 23:43:52] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:43:52] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:43:52] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:43:52] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:43:59] [ INFO ] [OdontologoDaoH2:100] Se encontro correctamente el odontologo con id 1
-[2023-06-05 23:44:55] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:44:55] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:44:55] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:44:55] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:44:57] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:45:34] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:45:34] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:45:34] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:45:34] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:45:38] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:47:21] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:47:21] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:47:21] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:47:21] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:47:32] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:48:25] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:48:25] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:48:25] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:48:25] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:48:29] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:51:18] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:51:18] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:51:18] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:51:18] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:51:22] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:51:22] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:52:42] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:52:42] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:52:42] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:52:42] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:52:49] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:55:10] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:55:10] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:55:10] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:55:10] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:55:14] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:56:39] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:56:39] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:56:39] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:56:39] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:56:46] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:56:50] [ INFO ] [OdontologoDaoH2:100] Se encontro correctamente el odontologo con id 2
-[2023-06-05 23:56:54] [ INFO ] [OdontologoDaoH2:100] Se encontro correctamente el odontologo con id 3
-[2023-06-05 23:58:02] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:58:02] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:58:02] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:58:02] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-05 23:58:30] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-05 23:58:30] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-05 23:58:30] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-05 23:58:30] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-06 00:01:11] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 1
-[2023-06-06 00:01:11] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 2
-[2023-06-06 00:01:11] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 3
-[2023-06-06 00:01:11] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-06 00:04:09] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 8
-[2023-06-06 00:04:41] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 10
-[2023-06-06 00:04:50] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-06 00:05:01] [ INFO ] [OdontologoDaoH2:100] Se encontro correctamente el odontologo con id 10
-[2023-06-06 00:05:58] [ INFO ] [OdontologoDaoH2:126] Se encontraron todos los odontologos correctamente
-[2023-06-06 00:06:34] [ INFO ] [OdontologoDaoH2:100] Se encontro correctamente el odontologo con id 10
-[2023-06-06 00:07:16] [ INFO ] [OdontologoDaoH2:35] Se agrego el odontologo con id 15
+[2023-06-30 19:01:28] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:01:28] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:01:28] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:01:31] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:01:31] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:01:31] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:01:32] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:01:32] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:01:32] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:01:34] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:01:34] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:01:34] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:01:43] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:01:46] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 19:01:53] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-06-30 19:01:58] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:02:13] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:02:22] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:02:27] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-06-30 19:02:39] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 19:02:40] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=3, apellido='Neuss', nombre='Josefina', dni='55555555', email='example03@gmail.com', domicilio=Domicilio{numero='111', calle='San Luis', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:02:50] [ INFO ] [DomicilioService:35] Domicilio encontrado: Domicilio{numero='111', calle='San Luis', localidad='Rosario', provincia='Santa Fe'}
+[2023-06-30 19:02:50] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=3, apellido='Neuss', nombre='Josefina', dni='55555555', email='example03@gmail.com', domicilio=Domicilio{numero='111', calle='San Luis', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:02:50] [ INFO ] [PacienteService:56] paciente 3 modificado con exito.
+[2023-06-30 19:02:50] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:02:50] [ INFO ] [DomicilioService:47] Domicilio 1 modificado con exito.
+[2023-06-30 19:02:50] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:02:50] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 19:04:14] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:04:25] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:04:46] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:04:51] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:12:58] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:21:06] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:21:49] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:22:19] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:22:19] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:22:19] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=1, apellido='Garcia', nombre='Fernando', dni='40315587', email='example@gmail.com', domicilio=Domicilio{numero='123', calle='Falsa', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:22:19] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=1, apellido='Garcia', nombre='Fernando', dni='40315587', email='example@gmail.com', domicilio=Domicilio{numero='123', calle='Falsa', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:22:19] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=1, apellido='Garcia', nombre='Fernando', dni='40315587', email='example@gmail.com', domicilio=Domicilio{numero='123', calle='Falsa', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:22:19] [ WARN ] [PacienteService:67] paciente id: 1 eliminado con exito.
+[2023-06-30 19:22:19] [ ERROR] [PacienteService:48] El id=1 del paciente no se encuentra en la base de datos.
+[2023-06-30 19:23:25] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:23:25] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:23:25] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=1, apellido='Garcia', nombre='Fernando', dni='40315587', email='example@gmail.com', domicilio=Domicilio{numero='123', calle='Falsa', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:23:25] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=1, apellido='Garcia', nombre='Fernando', dni='40315587', email='example@gmail.com', domicilio=Domicilio{numero='123', calle='Falsa', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:23:25] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:23:25] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=2, apellido='Martinez', nombre='Alberto', dni='123456', email='abc@gmail.com', domicilio=null, fechaIngreso=2023-06-30}
+[2023-06-30 19:23:25] [ INFO ] [PacienteService:45] paciente encontrado: Paciente{id=1, apellido='Garcia', nombre='Fernando', dni='40315587', email='example@gmail.com', domicilio=Domicilio{numero='123', calle='Falsa', localidad='Rosario', provincia='Santa Fe'}, fechaIngreso=2023-06-30}
+[2023-06-30 19:23:25] [ WARN ] [PacienteService:67] paciente id: 1 eliminado con exito.
+[2023-06-30 19:23:25] [ ERROR] [PacienteService:48] El id=1 del paciente no se encuentra en la base de datos.
+[2023-06-30 19:23:41] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:25:30] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:25:30] [ INFO ] [OdontologoService:59] Odontologo encontrado: Odontologo{id=1, nombre='Fernando', apellido='Garcia', matricula='1234', turnos=[]}
+[2023-06-30 19:25:30] [ INFO ] [OdontologoService:59] Odontologo encontrado: Odontologo{id=1, nombre='Fernando', apellido='Garcia', matricula='1234', turnos=[]}
+[2023-06-30 19:25:30] [ INFO ] [OdontologoService:59] Odontologo encontrado: Odontologo{id=1, nombre='Fernando', apellido='Garcia', matricula='1234', turnos=[]}
+[2023-06-30 19:25:30] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:25:30] [ INFO ] [OdontologoService:71] Odontologo 1 modificado con exito.
+[2023-06-30 19:25:30] [ INFO ] [OdontologoService:59] Odontologo encontrado: Odontologo{id=1, nombre='Jorge', apellido='Garcia', matricula='1234', turnos=[]}
+[2023-06-30 19:26:02] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:26:02] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:26:02] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:26:04] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:26:04] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:26:04] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:26:05] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:26:05] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:26:05] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:26:07] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:26:07] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:26:07] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:26:10] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.

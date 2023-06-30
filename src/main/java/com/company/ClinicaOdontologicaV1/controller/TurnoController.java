@@ -1,10 +1,9 @@
 package com.company.ClinicaOdontologicaV1.controller;
 
 
-import com.company.ClinicaOdontologicaV1.dto.OdontologoDTO;
 import com.company.ClinicaOdontologicaV1.dto.TurnoDTO;
-import com.company.ClinicaOdontologicaV1.entity.Odontologo;
 import com.company.ClinicaOdontologicaV1.entity.Turno;
+import com.company.ClinicaOdontologicaV1.exceptions.ResourceNotFoundException;
 import com.company.ClinicaOdontologicaV1.service.impl.TurnoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -32,12 +31,12 @@ public class TurnoController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<TurnoDTO> buscarPorId(@PathVariable Long id)throws Exception{
+    public ResponseEntity<TurnoDTO> buscarPorId(@PathVariable Long id)throws ResourceNotFoundException {
         return ResponseEntity.ok(turnoService.buscarPorId(id));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> eliminarTurno(@PathVariable Long id){
+    public ResponseEntity<?> eliminarTurno(@PathVariable Long id) throws ResourceNotFoundException {
         ResponseEntity<?>response = null;
         turnoService.eliminar(id);
         response =ResponseEntity.status(HttpStatus.OK).body("Odontologo "+id+" eliminado.");

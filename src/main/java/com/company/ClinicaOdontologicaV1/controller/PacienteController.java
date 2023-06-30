@@ -3,6 +3,7 @@ package com.company.ClinicaOdontologicaV1.controller;
 import com.company.ClinicaOdontologicaV1.dto.PacienteDTO;
 import com.company.ClinicaOdontologicaV1.entity.Odontologo;
 import com.company.ClinicaOdontologicaV1.entity.Paciente;
+import com.company.ClinicaOdontologicaV1.exceptions.ResourceNotFoundException;
 import com.company.ClinicaOdontologicaV1.service.impl.PacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -31,12 +32,12 @@ public class PacienteController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<PacienteDTO>buscarPorId(@PathVariable Long id) throws Exception{
+    public ResponseEntity<PacienteDTO>buscarPorId(@PathVariable Long id) throws ResourceNotFoundException {
         return ResponseEntity.ok(pacienteService.buscarPorId(id));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> eliminarPaciente(@PathVariable Long id){
+    public ResponseEntity<?> eliminarPaciente(@PathVariable Long id) throws ResourceNotFoundException {
         ResponseEntity<String>response = null;
         pacienteService.eliminar(id);
         response =ResponseEntity.status(HttpStatus.OK).body("Paciente "+id+" eliminado.");
@@ -44,7 +45,7 @@ public class PacienteController {
     }
 
     @PutMapping("/edit")
-    public ResponseEntity<?>actualizarPaciente(@RequestBody Paciente paciente){
+    public ResponseEntity<?>actualizarPaciente(@RequestBody Paciente paciente) throws ResourceNotFoundException {
         pacienteService.modificar(paciente);
         return ResponseEntity.ok().body("Se modifico el paciente.");
     }

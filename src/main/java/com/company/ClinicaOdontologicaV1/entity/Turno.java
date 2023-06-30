@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -24,11 +26,13 @@ public class Turno {
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "paciente_id")
     @NotNull
+    @OnDelete(action= OnDeleteAction.CASCADE)
     private Paciente paciente;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="odontologo_id")
     @NotNull
+    @OnDelete(action= OnDeleteAction.CASCADE)
     private Odontologo odontologo;
 
     private LocalDateTime fecha;
@@ -39,13 +43,4 @@ public class Turno {
         this.fecha = fecha;
     }
 
-    @Override
-    public String toString() {
-        return "Turno{" +
-                "id=" + id +
-                ", paciente=" + paciente +
-                ", odontologo=" + odontologo +
-                ", fecha=" + fecha +
-                '}';
-    }
 }

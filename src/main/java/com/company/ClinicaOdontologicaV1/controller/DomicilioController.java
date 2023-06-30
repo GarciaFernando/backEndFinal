@@ -3,6 +3,7 @@ package com.company.ClinicaOdontologicaV1.controller;
 
 import com.company.ClinicaOdontologicaV1.entity.Domicilio;
 import com.company.ClinicaOdontologicaV1.entity.Odontologo;
+import com.company.ClinicaOdontologicaV1.exceptions.ResourceNotFoundException;
 import com.company.ClinicaOdontologicaV1.service.impl.DomicilioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -32,12 +33,12 @@ public class DomicilioController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Domicilio> buscarPorId(@PathVariable Long id)throws Exception{
+    public ResponseEntity<Domicilio> buscarPorId(@PathVariable Long id)throws ResourceNotFoundException{
         return ResponseEntity.ok(domicilioService.buscarPorId(id));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> eliminarDomicilio(@PathVariable Long id){
+    public ResponseEntity<?> eliminarDomicilio(@PathVariable Long id) throws ResourceNotFoundException {
         ResponseEntity<?>response = null;
         domicilioService.eliminar(id);
         response =ResponseEntity.status(HttpStatus.OK).body("Domicilio "+id+" eliminado.");
@@ -45,7 +46,7 @@ public class DomicilioController {
     }
 
     @PutMapping("/edit")
-    public ResponseEntity<?>actualizarOdontologo(@RequestBody Domicilio domicilio){
+    public ResponseEntity<?>actualizarOdontologo(@RequestBody Domicilio domicilio) throws ResourceNotFoundException {
         domicilioService.modificar(domicilio);
         return ResponseEntity.ok().body("Se modifico el domicilio.");
     }

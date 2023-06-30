@@ -73,6 +73,8 @@ class PacienteServiceTest {
         Paciente paciente = new Paciente();
         paciente.setApellido("Martinez");
         paciente.setNombre("Alberto");
+        paciente.setDni("123456");
+        paciente.setEmail("abc@gmail.com");
         paciente.setFechaIngreso(LocalDate.now());
         pacienteService.guardar(paciente);
         PacienteDTO pDto = pacienteService.buscarPorId(2L);
