@@ -1,76 +1,3 @@
-/*window.addEventListener('load', function () {
-
-     //Al cargar la pagina buscamos y obtenemos el formulario donde estarán
-     //los datos que el usuario cargará del nuevo odontologo
-    const formulario = document.querySelector('#agregar_nuevo_paciente');
-
-    //Ante un submit del formulario se ejecutará la siguiente funcion
-    formulario.addEventListener('submit', function (event) {
-
-        //creamos un JSON que tendrá los datos del nuevo estudiante
-        const formData = {
-            nombre: document.querySelector('#nombre').value,
-            apellido: document.querySelector('#apellido').value,
-            dni: document.querySelector('#dni').value,
-            email: document.querySelector('#email').value,
-        };
-
-        //invocamos utilizando la función fetch la API estudiantes con el método POST
-        //que guardará al odontologo que enviaremos en formato JSON
-        const url = '/paciente/agregar';
-        const settings = {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formData)
-        }
-
-        fetch(url, settings)
-            .then(response => response.json())
-            .then(data => {
-               //Si no hay ningun error se muestra un mensaje diciendo que el odontologo
-               //se agrego bien
-                 let successAlert = '<div class="alert alert-success alert-dismissible">' +
-                     '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                     '<strong></strong> Paciente agregado </div>'
-
-                 document.querySelector('#response').innerHTML = successAlert;
-                 document.querySelector('#response').style.display = "block";
-                 //se dejan todos los campos vacíos por si se quiere ingresar otro odontologo
-                 resetUploadForm();
-
-            })
-            .catch(error => {
-                 //Si hay algun error se muestra un mensaje diciendo que el estudiante
-                 //no se pudo guardar y se intente nuevamente
-                  let errorAlert = '<div class="alert alert-danger alert-dismissible">' +
-                                     '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                                     '<strong> Error intente nuevamente</strong> </div>'
-
-                   document.querySelector('#response').innerHTML = errorAlert;
-                   document.querySelector('#response').style.display = "block";
-                   //se dejan todos los campos vacíos por si se quiere ingresar otro estudiante
-                   resetUploadForm();})
-    });
-
-    function resetUploadForm(){
-        document.querySelector('#nombre').value = "";
-        document.querySelector('#apellido').value = "";
-        document.querySelector('#dni').value="";
-        document.querySelector('#email').value="";
-    }
-
-    (function(){
-        let pathname = window.location.pathname;
-        if(pathname === "/"){
-            document.querySelector(".nav .nav-item a:first").addClass("active");
-        } else if (pathname == "/studentsList.html") {
-            document.querySelector(".nav .nav-item a:last").addClass("active");
-        }
-    })();
-});*/
-
 function guardarPaciente(formData){
     console.log("ENTRANDO A LA FUNCION GUARDARPACIENTE");
         const url = '/paciente/agregar';
@@ -81,11 +8,9 @@ function guardarPaciente(formData){
               },
               body: JSON.stringify(formData)
         }
-                console.log("Estoy por entrar al fetch de paciente")
                 fetch(url, settings)
                             .then(response => response.text())
                             .then(data => {
-                            console.log("Estoy adentro del fetch de paciente")
                                //Si no hay ningun error se muestra un mensaje diciendo que el odontologo
                                //se agrego bien
                                  let successAlert = '<div class="alert alert-success alert-dismissible">' +
@@ -94,8 +19,7 @@ function guardarPaciente(formData){
 
                                  document.querySelector('#response').innerHTML = successAlert;
                                  document.querySelector('#response').style.display = "block";
-                                 //se dejan todos los campos vacíos por si se quiere ingresar otro odontologo
-                                 //resetUploadForm();
+
 
                             })
                             .catch(error => {
@@ -108,8 +32,8 @@ function guardarPaciente(formData){
 
                                    document.querySelector('#response').innerHTML = errorAlert;
                                    document.querySelector('#response').style.display = "block";
-                                   //se dejan todos los campos vacíos por si se quiere ingresar otro estudiante
-                                   //resetUploadForm();})
-                 //resetUploadForm();
+
                             })
+
+
 }

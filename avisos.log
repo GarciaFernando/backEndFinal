@@ -70,3 +70,250 @@
 [2023-06-30 19:26:07] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
 [2023-06-30 19:26:07] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
 [2023-06-30 19:26:10] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:36:01] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:36:01] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:36:01] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 19:36:02] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:36:02] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:36:02] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 19:36:04] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:36:04] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:36:04] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:36:06] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:36:06] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:36:06] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 19:36:09] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@7177142f
+[2023-06-30 19:36:09] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:36:09] [ INFO ] [OdontologoService:71] Odontologo 1 modificado con exito.
+[2023-06-30 19:36:16] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:36:22] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:36:23] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@24722f32
+[2023-06-30 19:36:30] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@58b5f084
+[2023-06-30 19:36:30] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:36:30] [ INFO ] [OdontologoService:71] Odontologo 3 modificado con exito.
+[2023-06-30 19:36:30] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:36:31] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@1df6e7d6
+[2023-06-30 19:36:36] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@7577099d
+[2023-06-30 19:36:36] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 19:36:36] [ INFO ] [OdontologoService:71] Odontologo 3 modificado con exito.
+[2023-06-30 19:36:36] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 19:38:08] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 19:38:10] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@72ad8e36
+[2023-06-30 21:25:13] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 21:25:14] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 21:25:23] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 21:25:24] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 21:26:04] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 21:27:30] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 21:27:30] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 21:27:30] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 21:27:47] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 21:27:47] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 21:27:47] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 21:27:49] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 21:27:49] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 21:27:49] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 21:27:51] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 21:27:51] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 21:27:51] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 21:28:15] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 21:28:22] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 21:28:32] [ INFO ] [DomicilioService:68] Se solicito la lista de todos los domicilios.
+[2023-06-30 21:28:40] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-06-30 21:28:54] [ INFO ] [DomicilioService:68] Se solicito la lista de todos los domicilios.
+[2023-06-30 21:30:03] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 21:30:05] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 21:30:24] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 21:30:42] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@16749198
+[2023-06-30 21:30:43] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@7e93d64c
+[2023-06-30 21:30:49] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@63965509
+[2023-06-30 21:30:52] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@23cb32bf
+[2023-06-30 21:30:54] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@e4c194b
+[2023-06-30 21:30:56] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@4138f8cf
+[2023-06-30 21:30:57] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@308d0f9c
+[2023-06-30 21:30:58] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@3b491326
+[2023-06-30 21:30:59] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@4bc508a9
+[2023-06-30 21:31:01] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@2e9d1c9
+[2023-06-30 21:31:03] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@25064537
+[2023-06-30 21:31:05] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@28f161f6
+[2023-06-30 21:31:06] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@286ff62a
+[2023-06-30 21:31:07] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@54468b96
+[2023-06-30 21:31:09] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@23e015ac
+[2023-06-30 21:31:11] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@5b7078ec
+[2023-06-30 21:31:14] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@1585e3ad
+[2023-06-30 21:31:19] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@7644c5db
+[2023-06-30 21:31:33] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-06-30 21:31:41] [ INFO ] [TurnoService:43] turno encontrado: com.company.ClinicaOdontologicaV1.entity.Turno@525759f0
+[2023-06-30 21:31:41] [ WARN ] [TurnoService:59] turno id: 2 eliminado con exito.
+[2023-06-30 22:14:42] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:14:42] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:14:42] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:14:44] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:14:44] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:14:44] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:14:46] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:14:46] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:14:46] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:14:48] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:14:48] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:14:48] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:15:15] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 22:15:29] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 22:17:52] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:17:52] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:17:52] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:17:53] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:17:53] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:17:53] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:17:56] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:17:56] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:17:56] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:17:58] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:17:58] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:17:58] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:18:17] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 22:18:24] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 22:18:25] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 22:18:27] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 22:19:37] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:19:37] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:19:37] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:19:40] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:19:40] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:19:40] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:19:42] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:19:42] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:19:42] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-06-30 22:19:46] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:19:46] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:19:46] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-06-30 22:20:06] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 22:21:05] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:21:05] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-06-30 22:23:38] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 22:23:43] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 22:23:49] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-06-30 22:23:54] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-06-30 22:23:54] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 22:23:58] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-06-30 22:24:12] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:24:59] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-06-30 22:25:00] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:34:07] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:34:10] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:34:10] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:34:10] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:34:12] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:34:12] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:34:12] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:34:14] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:34:14] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:34:14] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:34:16] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:34:16] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:34:16] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:34:19] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:34:29] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:34:33] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:34:39] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:34:41] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@340f8965
+[2023-07-01 00:34:46] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@5bce40a3
+[2023-07-01 00:34:46] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:34:46] [ INFO ] [OdontologoService:71] Odontologo 4 modificado con exito.
+[2023-07-01 00:34:47] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:35:15] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:35:31] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:35:32] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:35:36] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:35:39] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@4764da7c
+[2023-07-01 00:35:51] [ INFO ] [DomicilioService:35] Domicilio encontrado: com.company.ClinicaOdontologicaV1.entity.Domicilio@3ce343bf
+[2023-07-01 00:35:51] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:35:51] [ INFO ] [DomicilioService:47] Domicilio 4 modificado con exito.
+[2023-07-01 00:35:51] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@78bb955f
+[2023-07-01 00:35:51] [ INFO ] [PacienteService:56] paciente 4 modificado con exito.
+[2023-07-01 00:35:51] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:35:52] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:36:30] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@2d5dd15d
+[2023-07-01 00:36:30] [ WARN ] [PacienteService:67] paciente id: 4 eliminado con exito.
+[2023-07-01 00:45:14] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:45:19] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:45:19] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:45:38] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:45:48] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:45:57] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:48:22] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:48:24] [ INFO ] [TurnoService:43] turno encontrado: com.company.ClinicaOdontologicaV1.entity.Turno@684b8f5
+[2023-07-01 00:48:24] [ WARN ] [TurnoService:59] turno id: 3 eliminado con exito.
+[2023-07-01 00:48:30] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:48:31] [ INFO ] [PacienteService:45] paciente encontrado: com.company.ClinicaOdontologicaV1.entity.Paciente@64245136
+[2023-07-01 00:48:31] [ WARN ] [PacienteService:67] paciente id: 1 eliminado con exito.
+[2023-07-01 00:48:36] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:48:41] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:48:45] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:48:52] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:48:54] [ INFO ] [OdontologoService:59] Odontologo encontrado: com.company.ClinicaOdontologicaV1.entity.Odontologo@6703b3b9
+[2023-07-01 00:48:54] [ WARN ] [OdontologoService:81] Odontologo id: 3 eliminado con exito.
+[2023-07-01 00:48:59] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:49:04] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:49:36] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:49:43] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:49:43] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:49:43] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:49:44] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:49:44] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:49:44] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:49:46] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:49:46] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:49:46] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:49:48] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:49:48] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:49:48] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:49:52] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:50:01] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:50:05] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:50:10] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:50:22] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:50:23] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:51:21] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:51:27] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:51:27] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:52:10] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:52:10] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:53:39] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:53:39] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:53:39] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:53:40] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:53:40] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:53:40] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:53:42] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:53:42] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:53:42] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:53:44] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:53:44] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:53:44] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:53:48] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:54:10] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:54:11] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:54:18] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:54:18] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:54:27] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:54:27] [ INFO ] [PacienteService:82] Se solicito la lista de todos los pacientes.
+[2023-07-01 00:54:42] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:54:48] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.
+[2023-07-01 00:54:54] [ INFO ] [TurnoService:43] turno encontrado: com.company.ClinicaOdontologicaV1.entity.Turno@4dd4ddcf
+[2023-07-01 00:54:54] [ WARN ] [TurnoService:59] turno id: 4 eliminado con exito.
+[2023-07-01 00:56:15] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:56:15] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:56:15] [ INFO ] [DomicilioService:27] Nuevo domicilio registrado con exito.
+[2023-07-01 00:56:17] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:56:17] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:56:17] [ INFO ] [PacienteService:37] Nuevo paciente registrado con exito.
+[2023-07-01 00:56:18] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:56:18] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:56:18] [ INFO ] [OdontologoService:32] Nuevo odontologo registrado con exito.
+[2023-07-01 00:56:20] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:56:20] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:56:20] [ INFO ] [TurnoService:34] Nuevo turno registrado con exito.
+[2023-07-01 00:56:54] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:57:17] [ INFO ] [OdontologoService:41] Se solicito la lista de todos los odontologos.
+[2023-07-01 00:57:38] [ INFO ] [TurnoService:74] Se solicito la lista de todos los turnos.

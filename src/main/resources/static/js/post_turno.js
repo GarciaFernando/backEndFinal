@@ -27,9 +27,17 @@ window.addEventListener('load', function () {
             .then(response => response.text())
             .then(data => {
             console.log(data)
+            resetUploadForm();
             })
             .catch(error => {
             console.log(error);
+            resetUploadForm();
             })
     });
+        function resetUploadForm(){
+            document.querySelector('#paciente').value = "";
+            document.querySelector('#odontologo').value = "";
+            document.querySelector('#fecha').value="";
+
+        }
 });

@@ -61,7 +61,7 @@ window.addEventListener('load', function () {
         document.querySelector('#matricula').value="";
 
     }
-
+/*
     (function(){
         let pathname = window.location.pathname;
         if(pathname === "/"){
@@ -69,5 +69,5 @@ window.addEventListener('load', function () {
         } else if (pathname == "/studentsList.html") {
             document.querySelector(".nav .nav-item a:last").addClass("active");
         }
-    })();
+    })();*/
 });

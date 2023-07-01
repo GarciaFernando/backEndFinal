@@ -1,4 +1,4 @@
-package com.company.ClinicaOdontologicaV1;
+/*package com.company.ClinicaOdontologicaV1;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -28,3 +28,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     }
 }
+*/

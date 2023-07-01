@@ -38,9 +38,8 @@ window.addEventListener('load', function () {
                      id:data
                 }
             };
-            console.log("LLAMO A LA FUNCION GUARDAR PACIENTE CON EL FORMDATAPACIENTE")
-            guardarPaciente(formDataPaciente)
-
+            guardarPaciente(formDataPaciente);
+            resetUploadForm();
             })
             .catch(error => {
                  //Si hay algun error se muestra un mensaje diciendo que el estudiante
@@ -52,11 +51,16 @@ window.addEventListener('load', function () {
                    document.querySelector('#response').innerHTML = errorAlert;
                    document.querySelector('#response').style.display = "block";
                    //se dejan todos los campos vacíos por si se quiere ingresar otro estudiante
-                   //resetUploadForm();
+                   resetUploadForm();
                    })
     });
-/*
+
     function resetUploadForm(){
+        document.querySelector('#nombre').value = "";
+        document.querySelector('#apellido').value = "";
+        document.querySelector('#dni').value = "";
+        document.querySelector('#email').value = "";
+
         document.querySelector('#calle').value = "";
         document.querySelector('#numero').value = "";
         document.querySelector('#localidad').value="";
@@ -70,5 +74,5 @@ window.addEventListener('load', function () {
         } else if (pathname == "/studentsList.html") {
             document.querySelector(".nav .nav-item a:last").addClass("active");
         }
-    })();*/
+    })();
 });
